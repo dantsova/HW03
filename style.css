@@ -1,0 +1,106 @@
+body {
+    min-width: 1000px;
+}
+li {
+    list-style-type: disc;
+}
+.text-div {
+    font-size: 21px;
+}
+.container {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    display: flex;
+    justify-content: space-between;
+    background-color: gray;
+    padding-left: 3em;
+    padding-top: 3em;
+    padding-bottom: 4em;
+    box-sizing: border-box;
+}
+.container div {
+    background-color: transparent;
+}
+#heading {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #2c2c2c;
+    color: #5a5a5a;
+    width: 100%;
+    text-align: center;
+}
+
+h1 {
+    display: inline-block;
+    color: #7e7e7e;
+    margin: 0px auto;
+}
+#name {
+    color: #2c2c2c;
+}
+
+.imgs {
+    margin-left: 2em;
+    min-height: 10px;
+    width: 75%;
+    height: 75%;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+
+.footer{
+    position: fixed;
+    top: 650px;
+    left: 0;
+    margin: 0 auto;
+    padding: 4px 0px;
+    width: 100%;
+}
+.footstyle1 {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.footstyle2 {
+    display: list-item;
+    text-align: -webkit-match-parent;
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    word-spacing: 2px;
+    min-height: 10vh;
+    display: flex;
+    flex-direction: column;
+}
+.footer-top {
+    background: #2c2c2c;
+    font-size: 14px;
+    color: #5a5a5a;
+}
+
+.socialNetworks {
+    margin-top: 2em;
+}
+
+.social a {
+    text-align: center;
+    width: 44px;
+    height: 44px;
+    float: left;
+    background: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.15), inset 0 0 50px rgba(0,0,0,0.1);
+    border-radius: 24px;
+    margin: 0px 7px 7px 0px;
+    padding: 4px;
+    color: #000;
+}
+.github a:hover {background: #191919; color: #fff;}
+.linkedin a:hover {background: #0e76a8; color: #fff;}
+.telegram a:hover {background: #249bd7; color: #fff;}
+.whatsapp a:hover {background: #50b154; color: #fff;}
